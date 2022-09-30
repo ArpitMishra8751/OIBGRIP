@@ -1,0 +1,150 @@
+/* CSS Reset  */
+body {
+    /* color: white; */
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(30, 209, 147);
+}
+
+ul{
+    /* padding-top: 10px; */
+    margin: 0;
+    padding: 0px;
+    list-style: none;
+}
+
+.list{
+    border-radius: 5px;
+    border: 1px solid black;
+    /* width: 80px; */
+    background-color: coral;
+}
+
+.list:hover{
+    background-color: cornsilk;
+}
+
+.left {
+    display: inline-block;
+    /* border: 2px solid red; */
+    position: absolute;
+    left: 10px;
+    top: 20px;
+}
+
+.left img {
+    width: 267px;
+    filter: invert(100%);
+    /* to change black color img into white and vice versa  */
+}
+
+.left div {
+    line-height: 19px;
+    font-size: 26px;
+    text-align: center;
+}
+
+.mid {
+    /* if you want to make in centre with help of margin auto then you have to follow these three conditions    */
+    display: block;
+    width: 45%;
+    margin: 20px auto;
+    /* border: 2px solid red; */
+}
+
+.right {
+    /* position:absolute is a way to tell the text where to stand 
+    it always setted in respect to its parent and  here parent is header*/
+
+    position: absolute;
+    right: 5px;
+    top: 20px;
+    display: inline-block;
+    /* border: 2px solid red; */
+}
+
+.navbar li {
+    padding-left: 4px;
+    /* we did this display inline block to make all elements of li in a row  */
+    display: inline-block;
+    font-size: 25px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 8px;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: grey;
+}
+
+.btn1{
+    margin: 0px 3px;
+    /* background-color: black; */
+    color: white;
+    padding: 10px 5px;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 2px solid grey;
+    border-radius: 10px;
+}
+
+.btn1:hover {
+    background-color: rgb(211, 238, 60);
+}
+
+.container {
+    border: 2px solid white;
+    padding: 30px 90px;
+
+    /* margin: 150px 65px; */
+    margin-top: 150px;
+    margin-left: 250px;
+    border-radius: 18px;
+    width: 35%;
+}
+.form-group input{
+    text-align: center;
+    padding: 2px;
+    border: 2px solid black;
+    margin: 6px auto;
+    display: block;
+    width: 400px;
+    font-size: 25px;
+    border-radius: 8px;
+}
+
+.form-group input:hover{
+    background-color: orangered;
+}
+.container h1{
+    /* color: rgb(0, 0, 0); */
+    text-align: center;
+}
+.container button{
+  display: block;
+  width: 86%;
+  margin: auto;
+}
+.btn{
+    text-align: center;
+    padding: 2px;
+    border: 2px solid black;
+    margin: 6px auto;
+    display: block;
+    width: 400px;
+    font-size: 25px;
+    border-radius: 8px;   
+}
+.btn:hover{
+    background-color:orangered;
+}
+footer{
+    background-color: dimgray;
+    text-align: center;
+}
